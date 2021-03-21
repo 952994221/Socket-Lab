@@ -12,6 +12,27 @@ Socket编程lab
 
 `python client.py`运行客户端
 
+## 数据库设计
+
+两个表分别存储文本和图片信息
+
+
+
+| id     | name | sex  | age  |
+| ------ | ---- | ---- | ---- |
+| 100001 | Tom  | 1    | 18   |
+
+| id     | image_path                           |
+| ------ | ------------------------------------ |
+| 100001 | /home/misaki/Pictures/100001_Tom.png |
+
+- `id`为6位`int`，且为主码
+  - 第二个表的`id`为外码，参照第一个表的`id`
+- `name`无格式限制
+- `sex`为`0`或`1`
+- `age`为2位`int`
+- `image_path`无格式限制
+
 ## GUI
 
 GUI基于PyQt5开发
