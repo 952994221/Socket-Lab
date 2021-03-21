@@ -14,7 +14,7 @@ Socket编程lab
 
 ## GUI
 
-CUI基于PyQt5开发
+GUI基于PyQt5开发
 
 ![](./images/2.jpg)
 
